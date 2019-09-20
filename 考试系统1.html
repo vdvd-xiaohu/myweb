@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>考试系统</title>
+	</head>
+	<body>
+		1. Internet上使用的网络协议是：__________<br/>
+		<input type="radio" value='*' name="answer"/>TCP/IP
+		<input type="radio" value="1" name="answer"/> X.25
+		<input type="radio" value="2" name="answer"/>netbeui<br/>
+		<input type="button" value="提交" onclick="fun()"/><br/>
+		最终成绩：<input type="text" id="result"/>
+	<script>
+		function fun(){
+			var scort=0;
+			var elem=document.getElementsByName("answer");
+			for(i=0;i<elem.length;i++){
+				if(elem[i].checked&&elem[i].value=="*")
+				scort+=20;
+			}
+			document.getElementById("result").value=scort;
+			}
+			</script>>
+	</body>
+</html>
