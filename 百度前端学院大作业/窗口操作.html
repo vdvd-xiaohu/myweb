@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>窗口操作</title>
+	</head>
+	<body>
+		<p><input type="button" value="打开窗口" onclick="openWin()"></p>
+		<p><input type="button" value="关闭窗口" onclick="closeWin()"></p>
+		<p><input type="button" value="检测窗口是否关闭" onclick="checkWin()"></p>
+		<p id="msg"></p>
+		<script>
+			var myWindow;
+			function openWin(){
+				myWindow=window.open('','newWin','width=400,height=200,left=200');
+				myWindow.document.write('<p>窗口名称为: '+window.name+'</p>');
+				myWindow.document.write('<p>当前窗口的父窗口地址:'+window.parent.location+'</p>');
+			}
+			function closeWin(){
+				myWindow.close();
+			}
+			function checkWin(){
+				if(myWindow){
+					var str=myWindow.closed? '窗口已关闭!' : '窗口未关闭!';
+				}
+				else{
+					var str="窗口没有被打开";
+				}
+				document.getElementById("msg").innerHTML=str;
+			}
+		</script>
+	</body>
+</html>

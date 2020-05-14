@@ -1,0 +1,366 @@
+.title1{
+	position: relative;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.helloworld{
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 550px;
+	font-size: 30px;
+/* 	background-color: red; */
+}
+.duanluo{
+	color: white;
+	position:absolute;
+	top: 100px;
+	left: 300px;
+	width: 610px;
+	height: 200px;
+	/* background-color: green; */
+}
+.signup{
+
+	width: 960px;
+	height: 200px;
+	border: 1px solid black;
+	/* background-color: red; */
+	position: absolute;
+	left: 150px;
+	top: 250px;
+	text-align: center;
+	color: white;
+
+}
+.diyi,.dier{
+/* 	background-color: red; */
+	color: white;
+	width: 250px;
+	height: 4px;
+	line-height: 4px;
+	float: left;
+	margin: 45px 20px;
+	padding: 20px;
+	border: 1px solid bisque;
+	}
+	.disan{
+ 		background-color: white;
+		color: black;
+		width: 90px;
+		height: 4px;
+		line-height: 4px;
+		float: left;
+		margin: 45px 20px;
+		padding: 20px;
+		
+		/* border: 1px solid bisque; */
+	}
+	.title{
+	/* background-color: red; */
+	margin-top: 40px;
+	}
+	.title2{
+	/* background-color: red; */
+	margin-top: 2px;
+	font-size: 10px;
+	color: rosybrown;
+	}
+	.white{
+		width: 100%;
+		height: 480px;
+		background-color: white;
+		position: absolute;
+		top: 550px;
+	}
+	.white1{
+		margin: 0 auto;
+	   /* background-color: red; */
+		width: 960px;
+		height: 480px;
+	/* 	border: 1px solid green; */
+		position: relative;
+	}
+	.title01{
+		/* position: absolute;
+		top: 70px;
+		left: 30px; */
+		margin: 30px auto 10px auto;
+		width: 300px;
+		height: 30px;
+	/* 	background-color: red; */
+		font-size: 13px;
+		font-family: sans-serif;
+	}
+	.title02{
+		width: 400px;
+		height: 70px;
+		margin: 10px auto 10px auto;
+/* 	    background-color: gray; */
+		font-size: 22px;
+		font-family: sans-serif;
+	}
+	.logoinput{
+		margin: 20px auto;
+	 
+		width: 870px;
+		height: 310px;
+	}
+	.top{
+		display: flex;
+	
+	}
+	.top li1{
+		flex: 1;
+		margin: 0 auto;
+	}
+	.top li2{
+		flex: 1;
+	}
+	.bottom{
+		display: flex;
+	}
+	.bottom li3{
+		flex: 1;
+	}
+	.bottom li4{
+		flex: 1;
+	}
+	 	.background2{
+		width: 100%;
+		height: 500px;
+		position: absolute;
+		top: 1100px;
+		background-color: red;
+	    background-image: url(images/dierbeijing_02.png); 
+	} 
+.limian{
+	width: 1300px;
+	height: 500px;
+ 	/* border: 1px solid blue; */
+	margin: 0 auto;
+ 	display: flex; 
+overflow: hidden;
+}
+.hezizuo{
+	width: 350px;
+	height: 370px;
+ /*   border: 1px solid red; */
+/* 	background-color: grey; */
+	margin: 90px;
+ 	flex: 1; 
+	padding: 0px 20px 40px 100px;
+
+}
+.changfang{
+	width: 340px;
+	height: 100px;
+	/* border: 1px solid red; */
+	margin: 40px 0px;
+	display: flex;
+}
+.xiaohe1{
+	height: 30px;
+	width: 30px;
+/* 	border: 1px solid red; */
+	flex: 1;
+	margin: 20px 5px 10px 1px;
+	font-size: 12px;
+	color: black;
+	background-color: white;
+	line-height: 30px;
+}
+.xiaohe2{
+	height: 30px;
+	width: 30px;
+	/* border: 1px solid red; */
+	flex: 1;
+	margin: 20px 5px 10px 1px;
+	font-size: 12px;
+	color: white;
+	line-height: 30px;
+}
+.heziyou{
+		width: 800px;
+		height: 410px;
+	 	border: 1px solid red; 
+	 /* 	background-color: blue; */
+		flex: 1;
+		margin: 80px 0px;
+	/* 	float: left; */
+		
+}
+.heziyou img{
+	width: 500px;
+	height: 370px;
+	margin: 20px;
+}
+.wenzi{
+	width: 100%;
+	height: 420px;
+/* 	border: 1px solid red; */
+	position: absolute;
+	top: 1600px;
+
+}
+.title111{
+	width: 300px;
+    height: 40px;
+	/* background-color: red; */
+	margin-left: 500px;
+	color: black;
+	font-size: 20px;
+	
+}
+.fangge{
+	height: 370px;
+	width: 960px;
+	/* border: 1px solid red; */
+	margin: 5px auto;
+	display: flex;
+}
+.neihezi1,.neihezi2,.neihezi3{
+	
+	height: 340px;
+	/* border: 1px solid red; */
+	flex: 1;
+	margin: 10px;
+	/* background-color: red; */
+}
+	.neihezi1 img{
+	width: 250px;
+	height: 320px;
+	/* margin: 2px; */
+	padding: 10px;
+	margin: 2px;
+} 
+.xiaoniao{
+	width: 100%;
+	height: 500px;
+	/* border: 1px solid red; */
+	/* background-color: red; */
+	position: absolute;
+	top: 2010px;
+/* 	overflow: hidden; */
+}
+.juzhong{
+	width: 960px;
+	height: 500px;
+/* 	border: 1px solid green; */
+	margin: 0 auto;
+}
+.zuoshangtu{
+	width: 420px;
+	height: 200px;
+	/* border: 1px solid green; */
+ 	float: left; 
+	margin: 15px 1px 15px 37px;
+}
+.youshangtu{
+	width: 290px;
+	height: 180px;
+	/* border: 1px solid red; */
+	float: right;
+	margin: 25px 40px;
+}
+ .zuoxiatu{
+		width: 290px;
+		height: 180px;
+	/* 	border: 1px solid blue; */
+		float: left;
+		margin: 40px 15px 2px 37px;
+	} 
+	.youxiatu{
+		width: 420px;
+		height: 220px;
+	/* 	border: 1px solid green; */
+		float: right; 
+		margin: 15px;
+	}
+	.zuoshangtu img{
+		width: 420px;
+		height:200px;
+		margin: 0px;
+	}
+	.youshangtu img{
+		width: 290px;
+		height:180px;
+	}
+	.zuoxiatu img{
+		width: 290px;
+		height: 180px;
+	}
+	.youxiatu img{
+		width: 420px;
+		height: 220px;
+	}
+	.author{
+		width: 100%;
+		height: 550px;
+	/* 	background-color: red; */
+		position: absolute;
+		top: 2510px;
+	}
+	.author1{
+		width: 960px;
+		height: 520px;
+	/* 	border: 2px solid red; */
+		margin: 0 auto;
+	    
+	/* 	background-color: blue; */
+		
+	}
+	.author11{
+		width: 500px;
+		height: 400px;
+		margin:  10px 80px;
+	}
+	.author11 img{
+		width: 700px;
+		height: 400px;
+	}
+	.aaa{
+		width: 100%;
+		height: 450px;
+		position: absolute;
+		top: 3030px;
+		
+	}
+	.bbb{
+		width: 960px;
+		height: 450px;
+		margin: 0 auto;
+	/* 	border: 1px solid red; */
+		
+	}
+	.zuobox2,.youbox2{
+		width: 280px;
+		height: 320px;
+/* 		border: 1px solid red; */
+		
+		float: left;
+		margin: 80px 80px;
+	}
+	.zuobox2 img{
+		width: 280px;
+		height: 320px;
+	}
+	.youbox2 img{
+		width: 280px;
+		height: 320px;
+	}
+	.zuihou{
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		top: 3500px;
+		border: 1px solid cadetblue;
+		background-color: red;
+	}
+	.zuihou img{
+		width: 100%;
+		height: 300px;
+	}
+	
